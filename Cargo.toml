@@ -1,0 +1,9 @@
+[package]
+name = "trainnet"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = "1.41.0"
+tokio-util = { version = "0.7.12", features = ["codec"] }
+truinlag = { git = "https://github.com/oOCraftRabbitOo/truinlag", version = "0.1.0" }
